@@ -1,1 +1,1 @@
-alert('hello')
+// alert('main.js is connected');
