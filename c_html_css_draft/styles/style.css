@@ -6,15 +6,8 @@ body {
 }
 
 .container {
-  padding: 0 30px;
+  padding: 0 40px;
 }
-
-a:hover {
-  color: #36ab3e;
-  text-decoration: underline;
-}
-
-
 
 /*header styles */
 
@@ -29,7 +22,6 @@ header .title {
   font-family: 'Work Sans', sans-serif;
   font-size: 30px;
   font-weight: 400;
-  text-transform: uppercase;
 }
 
 header nav ul {
@@ -46,18 +38,59 @@ nav a {
   text-decoration: none;
 }
 
+/* Global */
+
+a:hover {
+  color: #36ab3e;
+  text-decoration: underline;
+}
+
 .clearfix: after {
   content: "";
   display: block;
   clear: both;
 }
 
-
-/*main styles */
-
 h2 {
   color: #f32b24;
   font-family: 'Eczar', serif;
-  font-size: 38px;
+  font-size: 24px;
   font-weight: 600;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* Index styles */
+
+.hero {
+  height: 200px;
+  background-image: url(../assets/IMG_0083.png);
+  background-size: contain;
+  background-position: center;
+}
+
+.sort-row {
+  border-bottom: 1px solid #2982E8;
+  border-top: 1px solid #2982E8;
+  padding: 20px 0 0 0;
+}
+
+/* About styles */
+
+aside.about {
+  float: left;
+  margin-right: 20px;
+  max-width: 38%;
+}
+
+aside.about img {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  margin-bottom: 10px;
+  size: contain;
+}
+
+main.about {
+  margin-left: 40px;
 }
