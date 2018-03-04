@@ -56,21 +56,20 @@ h2 {
   font-family: 'Eczar', serif;
   font-size: 24px;
   font-weight: 600;
+  letter-spacing: 1px;
   padding-bottom: 20px;
-  text-transform: uppercase;
 }
 
-/* Index styles */
+/* index styles */
 
 .hero {
-  height: 200px;
+  height: 360px;
   background-image: url(../assets/IMG_0083.png);
   background-size: contain;
   background-position: center;
 }
 
 .sort-row {
-  border-bottom: 1px solid #2982E8;
   border-top: 1px solid #2982E8;
   padding: 20px 0 0 0;
 }
@@ -79,18 +78,23 @@ h2 {
 
 aside.about {
   float: left;
-  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-right: 50px;
   max-width: 38%;
 }
 
 aside.about img {
-  width: auto;
   height: auto;
-  max-width: 100%;
   margin-bottom: 10px;
+  max-width: 100%;
   size: contain;
+  width: auto;
 }
 
-main.about {
-  margin-left: 40px;
+main.about h2, p {
+  box-sizing: border-box;
+}
+
+p {
+  padding-bottom: 20px;
 }
