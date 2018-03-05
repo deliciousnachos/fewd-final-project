@@ -65,7 +65,7 @@ h2 {
 .hero {
   height: 360px;
   background-image: url(../assets/IMG_0083.png);
-  background-size: contain;
+  background-size: cover;
   background-position: center;
 }
 
@@ -123,7 +123,7 @@ p {
 /* Detail overlay */
 
 body.detail {
-  background-color: rgba(249,246,216,.7);
+  background-color: rgba(249,246,216,.1);
 }
 
 aside.description {
