@@ -77,11 +77,21 @@ h2 {
 .cat-item {
   border: 1px solid rgba(69,168,250,1);
   border-radius: 5px;
+  box-sizing: border-box;
   display: inline-block;
-  padding: 10px;
-  margin: 20px;
-  max-width: 400px;
+  text-align: center;
+  margin: 0 20px 20px 0;
+  max-width: 350px;
   min-width: 100px;
+}
+
+.item-summary {
+  border-top: 1px solid rgba(69,168,250,1);
+  padding: 20px;
+}
+
+.item-summary a {
+  text-decoration: none;
 }
 
 /* About styles */
