@@ -7,6 +7,7 @@
   <link rel="stylesheet" type="text/css" href="styles/reset.css">
   <link rel="stylesheet" href="styles/style.css">
   <link href="https://fonts.googleapis.com/css?family=Eczar:400,600|Work+Sans:300,400" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
   <div class="container">
@@ -25,13 +26,14 @@
     </header>
   </div> <!-- div class container -->
 
-<!--     <section class="hero clearfix"></section> -->
 
     <main>
 
-<!--       <div class="sort-bar">
-        <h2>Catalogue</h2>
-      </div> -->
+      <div class="size-toggle container">
+        <button id="butt-sm">View Many</button>
+        <button id="butt-med">Compromise</button>
+        <button id="butt-lg">Make them Larger</button>
+      </div>
 
       <div class="item-list">
 
@@ -39,7 +41,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 1 big navy.png" alt="Big Navy" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Big Navy</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -47,7 +49,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 2 blue on taupe.png" alt="Blue on Taupe" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Blue on Taupe</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -55,7 +57,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 3 cereulean on taupe.png" alt="Cereulean on Taupe" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Cereulean on Taupe</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -64,7 +66,7 @@
             <img src="assets/inventory/5X7 PNG/5x7 4 citron green on green.png" alt="Citron Green on Green" style="width:100%" class="item-img">
             <div class="item-summary">
               <h4>Citron Green on Green</h4> 
-              <p>Paper size: 5x7"</p> 
+              <p>5x7</p> 
             </div>
           </a>
         </div>
@@ -73,7 +75,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 5 cream cobalt on tan.png" alt="Cobalt on Tan" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Cobalt on Tan</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -81,7 +83,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 6 cream green on green.png" alt="Green on Green" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Green on Green</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -89,7 +91,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 7 cream lapis on taupe.png" alt="Lapis on Taupe" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Lapis on Taupe</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -97,7 +99,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 8 damage light pink.png" alt="Light Pink" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Light Pink</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -105,7 +107,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 9 forest med.png" alt="Forest Green" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Forest Green</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -113,7 +115,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 10 gray on taupe.png" alt="Gray on Taupe" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Gray on Taupe</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -121,7 +123,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 11 indigo med.png" alt="Indigo" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Indigo</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -129,7 +131,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 12 indigo sm.png" alt="Indigo Small" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Indigo Small</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -137,7 +139,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 13 light blue med lg.png" alt="Light Blue M/L" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Light Blue M/L</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -145,7 +147,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 14 light blue med sm.png" alt="Light Blue S/M" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Light Blue S/M</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -153,7 +155,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 15 light blue med.png" alt="Light Blue M" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Light Blue M</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -161,7 +163,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 16 light cobalt med.png" alt="Light Cobalt" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Light Cobalt</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -169,7 +171,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 17 magnolia mae jungle.png" alt="Jungle Green" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Jungle Green</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -178,7 +180,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 18 magnolia mae pink gray.png" alt="Pink Gray" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Pink Gray</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -187,7 +189,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 19 magnolia mae yellow 1.png" alt="Yellow 1" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Yellow 1</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -195,7 +197,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 20 magnolia mae yellow 2.png" alt="Yellow 2" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Yellow 2</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -204,7 +206,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 21 magnolia mae yellow 3.png" alt="Yellow 3" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Yellow 3</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -212,7 +214,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 22 magnolia may orange.png" alt="Orange" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Orange</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -220,7 +222,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 23 maroon on tan.png" alt="Maroon on Tan" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Maroon on Tan</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -228,7 +230,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 24 mid blue med sm.png" alt="Mid Blue" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Mid Blue</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -236,7 +238,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 25 mid charcoal med.png" alt="Charcoal" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Charcoal</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -244,7 +246,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 26 mid green on green.png" alt="Mid Green" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Mid Green</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -253,7 +255,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 27 mid kelly green.png" alt="Kelly Green" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Kelly Green</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -261,7 +263,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 28 mid pine.png" alt="Pine" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Pine</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -269,7 +271,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 29 mid sm pine.png" alt="Pine Small" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Pine Small</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -277,7 +279,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 30 old peach on pink.png" alt="Old Peach on Pink" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Old Peach on Pink</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -285,7 +287,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 31 peach.png" alt="Peach" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Peach</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -293,7 +295,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 32 pine on ivory.png" alt="Pine on Ivory" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Pine on Ivory</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -301,7 +303,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 33 pink baby.png" alt="Pink Baby" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Pink Baby</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -309,7 +311,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 34 pink on pink.png" alt="Pink on Pink" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Pink on Pink</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -317,7 +319,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 35 purple on tan.png" alt="Purple on Tan" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Purple on Tan</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -325,7 +327,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 36 red on cream.png" alt="Red on Cream" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Red on Cream</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -333,7 +335,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 37 sm green.png" alt="Green Small" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Green Small</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -341,7 +343,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 38 sm burgundy.png" alt="Burgundy" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Burgundy</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -349,7 +351,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 39 sorbet orange.png" alt="Sorbet Orange" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Sorbet Orange</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -357,7 +359,7 @@
           <img src="assets/inventory/5X7 PNG/5x7 40 sorbet pink.png" alt="Sorbet Pink" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Sorbet Pink</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
@@ -365,13 +367,17 @@
           <img src="assets/inventory/5X7 PNG/5x7 41 velvet moss on ivory.png" alt="Velvet Moss on Ivory" style="width:100%" class="item-img">
           <div class="item-summary">
             <h4>Velvet Moss on Ivory</h4> 
-            <p>Paper size: 5x7"</p> 
+            <p>5x7</p> 
           </div></a>
         </div>
 
       </div><!-- div class item-list -->
 
     </main>
+
+    <footer class="container">
+      <p>&copy 2018 Nicole Boettcher</p>
+    </footer>
 
 
 
