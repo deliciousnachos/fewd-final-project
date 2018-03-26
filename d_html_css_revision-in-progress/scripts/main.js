@@ -3,8 +3,9 @@ $( document ).ready(function() {
 // nothing before here 
 
 
+// console.log('connected!');
 
-console.log('connected!');
+
 
 // // // // // // // Inventory Views
 
