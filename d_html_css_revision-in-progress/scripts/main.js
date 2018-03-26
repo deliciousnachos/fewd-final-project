@@ -2,21 +2,20 @@
 $( document ).ready(function() {
 // nothing before here 
 
+console.log('connected!');
 
 
 // $('#butt-sm') = $smallButton
 // $('#butt-med') = $mediumButton
-var $largeButton = $('#butt-lg');
-
-function turnRed() {
-  (largeButton).html('wow');
-}
+var largeButton = $('#butt-lg');
 
 function makeLarge() {
-  $('#butt-lg').on('click', 'turnRed()');
+  largeButton.onClick(turnRed());
 }
 
-
+function turnRed() {
+  largeButton.css('color', 'red');
+}
 
 
 

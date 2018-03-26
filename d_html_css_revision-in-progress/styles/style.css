@@ -97,14 +97,17 @@ footer p {
   margin: 10px;
   max-width: 200px;
 /*  min-width: 100px;*/
-  box-shadow: 0 16px 24px 2px rgba(7, 35, 79, 0.03),
-              0 6px 30px 5px rgba(7, 35, 79, 0.03),
-              0 8px 10px -10px rgba(7, 35, 79, 0.1);
-}
-.cat-item:hover {
   box-shadow: 0 16px 24px 2px rgba(7, 35, 79, 0.14),
               0 6px 30px 5px rgba(7, 35, 79, 0.12),
               0 8px 10px -10px rgba(7, 35, 79, 0.4);
+}
+.cat-item:hover {
+/*  box-shadow: 0 16px 24px 2px rgba(7, 35, 79, 0.3),
+              0 6px 30px 5px rgba(7, 35, 79, 0.3),
+              0 8px 10px -10px rgba(7, 35, 79, 0.5);*/
+/*  box-shadow: 0 16px 24px 2px rgba(7, 35, 79, 0.03),
+              0 6px 30px 5px rgba(7, 35, 79, 0.03),
+              0 8px 10px -10px rgba(7, 35, 79, 0.1);*/
 }
 
 .cat-item a {
@@ -174,7 +177,7 @@ p {
 /* Detail overlay */
 
 body.detail {
-  background-color: rgba(249,246,216,.1);
+  background-color: rgb(57, 61, 68,.1);
 }
 
 aside.description {
@@ -195,8 +198,22 @@ p.dimensions {
 .detail-image img {
   float: left;
   margin-right: 50px;
-  width: 40%;
+  max-height: 80vh;
 }
+.detail-image img:hover {
+  background-color: red;
+  box-shadow: 0 16px 24px 2px rgba(7, 35, 79, 0.14),
+              0 6px 30px 5px rgba(7, 35, 79, 0.12),
+              0 8px 10px -10px rgba(7, 35, 79, 0.4);
+}
+
+/*.detail-image img:hover {
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+*/
 
 section.closebar {
   height: 60px;
