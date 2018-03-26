@@ -2,24 +2,29 @@
 $( document ).ready(function() {
 // nothing before here 
 
+
+
 console.log('connected!');
 
+// // // // // // // Inventory Views
 
-// $('#butt-sm') = $smallButton
-// $('#butt-med') = $mediumButton
-var largeButton = $('#butt-lg');
+var $smallButton = $('#butt-sm');
+var $mediumButton = $('#butt-med');
+var $largeButton = $('#butt-lg');
 
-function makeLarge() {
-  largeButton.onClick(turnRed());
-}
+$largeButton.click(function() {
+  $('.cat-item').css('max-width', '380px');
+});
 
-function turnRed() {
-  largeButton.css('color', 'red');
-}
+$mediumButton.click(function() {
+  $('.cat-item').css({'max-width': ''});
+});
 
+$smallButton.click(function() {
+  $('.cat-item').css('max-width', '120px');
+});
 
-
-
+// // // // // // // End of Inventory Views
 
 
 
