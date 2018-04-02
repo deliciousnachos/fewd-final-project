@@ -14,6 +14,7 @@ var $mediumButton = $('#butt-med');
 var $largeButton = $('#butt-lg');
 
 $largeButton.click(function() {
+  // $largeButton.toggleClass("a.button.active"); // not working
   $('.cat-item').css('max-width', '380px');
 });
 
@@ -23,7 +24,7 @@ $mediumButton.click(function() {
 
 $smallButton.click(function() {
   $('.cat-item').css('max-width', '120px');
-  
+
 });
 
 // // // // // // // End of Inventory Views

@@ -102,11 +102,11 @@ a.button {
   text-decoration: none;
 }
 a.button:hover {
-  color: rgb(57, 61, 68,1);
+  color: rgba(57, 61, 68,1);
 }
 
-a.button:active {
-  color: rgb(57, 61, 68,1);
+a.button.active {
+  color: rgba(247, 24, 24, 1);
 }
 
 .item-list {
