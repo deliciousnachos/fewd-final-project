@@ -105,6 +105,10 @@ a.button:hover {
   color: rgb(57, 61, 68,1);
 }
 
+a.button:active {
+  color: rgb(57, 61, 68,1);
+}
+
 .item-list {
   display: flex;
   flex-flow: row wrap;

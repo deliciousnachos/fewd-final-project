@@ -23,6 +23,7 @@ $mediumButton.click(function() {
 
 $smallButton.click(function() {
   $('.cat-item').css('max-width', '120px');
+  
 });
 
 // // // // // // // End of Inventory Views
