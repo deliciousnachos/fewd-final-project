@@ -296,16 +296,21 @@ section.purchase p small {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 399px) {
+/* VERY TINY */
+@media only screen and (min-width: 1px) and (max-width: 399px) {
   .item-list {
     flex-flow: column wrap;
     align-items: center;
   }
   .cat-item {
-    max-width: none;
+    max-width: 100%;
+  }
+  .button {
+    display: none;
   }
 }
 
+/* PHONE */
 @media only screen and (min-width: 400px) and (max-width: 699px) {
   .item-list {
     flex-flow: row wrap;
@@ -314,8 +319,12 @@ section.purchase p small {
   .cat-item {
     max-width: 44%;
   }
+  #butt-med {
+    display: none;
+  }
 }
 
+/* PHABLET TABLET */
 @media only screen and (min-width: 569px) and (max-width: 699px) {
   .item-list {
     flex-flow: row wrap;
@@ -326,6 +335,7 @@ section.purchase p small {
   }
 }
 
+/* TABLET LAPTOP */
 @media only screen and (min-width: 700px) and (max-width: 879px) {
   .item-list {
     flex-flow: row wrap;
