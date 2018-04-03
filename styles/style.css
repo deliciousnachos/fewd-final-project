@@ -92,9 +92,9 @@ footer p {
 
 a.button {
   background: white;
-  border: 1px solid rgb(57, 61, 68,.3);
+  border: 1px solid rgba(57, 61, 68,.3);
   border-radius: 5px;
-  color: rgb(57, 61, 68,.5);
+  color: rgba(57, 61, 68,.5);
   font-size: 14px;
   font-weight: 600;
   margin: 6px;
@@ -105,7 +105,11 @@ a.button:hover {
   color: rgba(57, 61, 68,1);
 }
 
-a.button.active {
+/*a.button:active {
+  color: rgba(247, 24, 24, 1);
+}*/
+
+a.button:active {
   color: rgba(247, 24, 24, 1);
 }
 
@@ -291,4 +295,15 @@ section.purchase p small {
   padding: 3px 20px 0 20px;
   text-decoration: none;
 }
+
+@media only screen and (max-width: 599px) {
+  .item-list {
+    flex-flow: column wrap;
+    align-items: center;
+  }
+  .cat-item {
+    max-width: none;
+  }
+}
+
 
