@@ -296,7 +296,7 @@ section.purchase p small {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 399px) {
   .item-list {
     flex-flow: column wrap;
     align-items: center;
@@ -306,4 +306,32 @@ section.purchase p small {
   }
 }
 
+@media only screen and (min-width: 400px) and (max-width: 699px) {
+  .item-list {
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  .cat-item {
+    max-width: 44%;
+  }
+}
 
+@media only screen and (min-width: 569px) and (max-width: 699px) {
+  .item-list {
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  .cat-item {
+    max-width: 28%;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 879px) {
+  .item-list {
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  .cat-item {
+    max-width: 28%;
+  }
+}
