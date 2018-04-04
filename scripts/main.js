@@ -21,18 +21,36 @@ $mediumButton.click(function() {
 
 $smallButton.click(function() {
   $('.cat-item').css('max-width', '120px');
-
 });
 
-/**************************** End of Inventory Views */
+/**************************** Make Detail Pages */
+
+// var circles = []
+
+// var makeDetails = 
 
 
+// $.getJSON("./details-overlay/details/circles.json", function(json) {
+//     console.log(json); //  show the circles in console
+// });
 
 
+fetch('./details-overlay/details/circles.json')
+  .then(function(response) {
+    return response.json()
+  })
+// this is the only contact with the API 
 
 
+  .then(function(jsonResponse) {
+    console.log(jsonResponse);
+  })
+// this takes the return from the previous and then names it jsonResponse on the fly, could be named anything 
 
-
+  .catch(function(err) {
+    console.log(err);
+  })
+//
 
 
 
