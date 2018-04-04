@@ -1,4 +1,4 @@
-/**************************** big styles */
+/**************************** Global */
 
 body {
   background-color: rgb(57, 61, 68,.1);
@@ -12,7 +12,27 @@ body {
   padding: 0 40px;
 }
 
-/**************************** header styles */
+.clearfix: after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+h2 {
+  color: #f32b24;
+  font-family: 'Eczar', serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+}
+
+a:hover {
+  color: #36ab3e;
+  text-decoration: underline;
+}
+
+/**************************** Header */
 
 header {
   padding: 20px 0 10px 0;
@@ -41,29 +61,7 @@ nav a {
   text-decoration: none;
 }
 
-/**************************** Global */
-
-a:hover {
-  color: #36ab3e;
-  text-decoration: underline;
-}
-
-.clearfix: after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-h2 {
-  color: #f32b24;
-  font-family: 'Eczar', serif;
-  font-size: 24px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  padding-bottom: 20px;
-}
-
-/**************************** footer styles */
+/**************************** Footer */
 
 footer p {
   margin-top: 40px;
@@ -72,8 +70,7 @@ footer p {
   color: rgb(57, 61, 68,.5);
 }
 
-
-/**************************** Index styles */
+/**************************** Index Page */
 
 .size-toggle {
   display: flex;
@@ -159,7 +156,7 @@ a.button:active {
   padding: 10px;
 }
 
-/**************************** About styles */
+/**************************** About Page */
 
 main.about, main.getone {
   box-sizing: border-box;
@@ -188,10 +185,7 @@ p {
   padding-bottom: 20px;
 }
 
-
-
-
-/**************************** Detail overlay */
+/**************************** Detail Page */
 
 body.detail {
   background-color: rgb(57, 61, 68,.1);

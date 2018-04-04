@@ -2,12 +2,9 @@
 $( document ).ready(function() {
 // nothing before here 
 
-
 // console.log('connected!');
 
-
-
-// // // // // // // Inventory Views
+/**************************** Inventory Views */
 
 var $smallButton = $('#butt-sm');
 var $mediumButton = $('#butt-med');
@@ -16,9 +13,6 @@ var $largeButton = $('#butt-lg');
 $largeButton.click(function() {
   // $('a').toggleClass(".button:active"); // not working
   $('.cat-item').css('max-width', '380px');
-  $('.active').not($(this)).removeClass('active');
-    $(this).toggleClass('active');
-    event.stopPropagation();
 });
 
 $mediumButton.click(function() {
@@ -30,7 +24,7 @@ $smallButton.click(function() {
 
 });
 
-// // // // // // // End of Inventory Views
+/**************************** End of Inventory Views */
 
 
 
