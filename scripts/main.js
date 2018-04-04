@@ -28,7 +28,7 @@ $smallButton.click(function() {
 // set up empty circle array //
 var circleArray = [];
 
-// parse JSON, push into array. problem is there's an extra set of brackets so it's an object not array. //
+// parse JSON, push into array. problem is there's an extra set of brackets so it's an array within an array. //
 var allCircles = $.getJSON('scripts/circles.json', function(data) {
   circleArray.push(data.circles);
   return circleArray;
@@ -36,7 +36,7 @@ var allCircles = $.getJSON('scripts/circles.json', function(data) {
 console.log(circleArray);
 
 
-// test - can you that filter down to a one item array? right now the answer is no bc it's an object //
+// test - can you filter down to a one item array? right now the answer is no bc it's an object //
 var singleCircle = circleArray.filter(function(element) {
   if (element.circleID === "01-001") {
     console.log(element);
@@ -48,7 +48,6 @@ var singleCircle = circleArray.filter(function(element) {
 console.log(singleCircle);
 
 /**************************** Fill info into the detail overlay */
-
 
 // need to write a function where:
 // 1. the user clicks a photo on the index page.
