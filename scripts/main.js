@@ -26,49 +26,30 @@ $smallButton.click(function() {
 /**************************** Make Detail Pages */
 
 
-// // javascript version - not needed
-// fetch('scripts/circles.json')
-//   .then(function(circleStuff) {
-//     return circleStuff.json()
-//   })
-//   .then(function(circleStuffinJSON) {
-//     console.log(circleStuffinJSON);
-//   })
-//   .catch(function(err) {
-//     console.log(err);
-//   })
-
-
-
-// // filter to a one item array 
-// var singleCircle = allCircles.filter(function(element) {
-//   if (element.circleID === "01-001") {
-//     return true;
-//   } else {
-//     return false;
-//   }
-// });
+// set up empty circle array //
 
 var circleArray = [];
 
-// parse JSON, push into array
+// parse JSON, push into array //
+
 var allCircles = $.getJSON('scripts/circles.json', function(data) {
-  circleArray.push(data);
+  circleArray.push(data.circles);
   return circleArray;
 }); 
 
 console.log(circleArray);
 
 
-//   var singleCircle = allCircles.filter(function(element) {
-//     if (element.circleID === "01-001") {
-//     return true;
-//     } else {
-//     return false;
-//     }
-//   });
-//   console.log(singleCircle);
-// }); 
+// filter down to a one item array //
+var singleCircle = circleArray.filter(function(element) {
+  if (element.circleID === "01-001") {
+    console.log(element);
+  // return true;
+  // } else {
+  // return false;
+  }
+});
+console.log(singleCircle);
 
 
 

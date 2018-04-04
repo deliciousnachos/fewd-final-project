@@ -39,7 +39,7 @@ a:hover {
 /**************************** Header */
 
 header {
-  padding: 20px 0 10px 0;
+  padding: 20px 0 40px 0;
   height: 20px;
 }
 
@@ -241,7 +241,7 @@ section.closebar {
 }
 
 section.purchase {
-  margin-top: 20px;
+/*  margin-top: 20px;*/
 }
 
 section.purchase p small {
@@ -254,8 +254,7 @@ section.purchase p small {
   font-family: 'Work Sans', sans-serif;
   font-size: 20px;
   font-weight: 400;
-  padding-bottom: 20px;
-  padding-top: 40px;
+  padding: 20px 0;
 }
 
 .buy-button {
@@ -284,6 +283,9 @@ section.purchase p small {
   .button {
     display: none;
   }
+  header nav ul {
+    float: left;
+  }
 }
 
 /* PHONE */
@@ -301,7 +303,7 @@ section.purchase p small {
 }
 
 /* PHABLET TABLET */
-@media only screen and (min-width: 569px) and (max-width: 699px) {
+/*@media only screen and (min-width: 569px) and (max-width: 699px) {
   .item-list {
     flex-flow: row wrap;
     align-items: center;
@@ -309,7 +311,7 @@ section.purchase p small {
   .cat-item {
     max-width: 28%;
   }
-}
+}*/
 
 /* TABLET LAPTOP */
 @media only screen and (min-width: 700px) and (max-width: 879px) {
