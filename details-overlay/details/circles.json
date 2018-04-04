@@ -1,1 +1,20 @@
-circles.json
+{
+  "circles": [
+    {
+      "circleID": "01-001",
+      "circleName": "Big Navy",
+      "circleDescription": "Inky blue with a very papery texture.",
+      "artDetail": "2.5\" circle on 5x7\" paper",
+      "circleYear": "&copy 2017",
+      "imageURL": "../assets/inventory/5X7/5x7 1 big navy.png",
+    }
+    {
+      "circleID": "01-002",
+      "circleName": "Blue on Taupe",
+      "circleDescription": "Tiny. Cobalt blue with a creamy texture.",
+      "artDetail": "0.5\" circle on 5x7\" grayish tan colored paper",
+      "circleYear": "&copy 2017",
+      "imageURL": "../assets/inventory/5X7/5x7 2 blue on taupe.png",
+    }
+  ]
+}
