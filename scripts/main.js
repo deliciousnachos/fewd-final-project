@@ -28,11 +28,11 @@ $smallButton.click(function() {
 // var circles = []
 // var makeDetails = 
 
-$.getJSON('https://deliciousnachos.github.io/details-overlay/details/circles.json', function(json) {
-    console.log(json); //  show the circles in console
+$.getJSON('scripts/circles.json', function(data) {
+    console.log(data); //  show the circles in console
 });
 
-// fetch('https://deliciousnachos.github.io/details-overlay/details/circles.json')
+// fetch('scripts/circles.json')
 //   .then(function(circleStuff) {
 //     return circleStuff.json()
 //   })

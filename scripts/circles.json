@@ -6,39 +6,39 @@
       "circleDescription": "Inky blue with a very papery texture.",
       "artDetail": "2.5\" circle on 5x7\" white paper",
       "circleYear": "&copy 2017",
-      "imageURL": "../assets/inventory/5X7/5x7 1 big navy.png",
-    }
+      "imageURL": "../assets/inventory/5X7/5x7 1 big navy.png"
+    },
     {
       "circleID": "01-002",
       "circleName": "Blue on Taupe",
       "circleDescription": "Tiny. Cobalt blue with a creamy texture.",
       "artDetail": "0.5\" circle on 5x7\" grayish tan paper",
       "circleYear": "&copy 2017",
-      "imageURL": "../assets/inventory/5X7/5x7 2 blue on taupe.png",
-    }
+      "imageURL": "../assets/inventory/5X7/5x7 2 blue on taupe.png"
+    },
     {
       "circleID": "01-003",
       "circleName": "Cereulean on Taupe",
       "circleDescription": "A bright and friendly blue. Rather monotone.",
       "artDetail": "1\" circle on 5x7\" grayish tan paper",
       "circleYear": "&copy 2017",
-      "imageURL": "../assets/inventory/5X7/5x7 3 cereulean on taupe.png",
-    }
+      "imageURL": "../assets/inventory/5X7/5x7 3 cereulean on taupe.png"
+    },
     {
       "circleID": "01-004",
       "circleName": "Citron Green on Green",
       "circleDescription": "A limey green with elements of grass and chartreuse.",
       "artDetail": "1\" circle on 5x7\" tinted green paper",
       "circleYear": "&copy 2017",
-      "imageURL": "../assets/inventory/5X7/5x7 4 citron green on green.png",
-    }
+      "imageURL": "../assets/inventory/5X7/5x7 4 citron green on green.png"
+    },
     {
       "circleID": "01-005",
       "circleName": "Cream Cobalt on Tan",
       "circleDescription": "Small, cobalt and middle blues with a soft texture.",
       "artDetail": "0.8\" circle on 5x7\" white paper",
       "circleYear": "&copy 2017",
-      "imageURL": "../assets/inventory/5X7/5x7 5 cream cobalt on tan.png",
+      "imageURL": "../assets/inventory/5X7/5x7 5 cream cobalt on tan.png"
     }
   ]
 }
