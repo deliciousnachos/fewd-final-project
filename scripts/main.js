@@ -26,32 +26,22 @@ $smallButton.click(function() {
 /**************************** Make Detail Pages */
 
 // var circles = []
-
 // var makeDetails = 
 
+$.getJSON('https://deliciousnachos.github.io/details-overlay/details/circles.json', function(json) {
+    console.log(json); //  show the circles in console
+});
 
-// $.getJSON("./details-overlay/details/circles.json", function(json) {
-//     console.log(json); //  show the circles in console
-// });
-
-
-fetch('./details-overlay/details/circles.json')
-  .then(function(response) {
-    return response.json()
-  })
-// this is the only contact with the API 
-
-
-  .then(function(jsonResponse) {
-    console.log(jsonResponse);
-  })
-// this takes the return from the previous and then names it jsonResponse on the fly, could be named anything 
-
-  .catch(function(err) {
-    console.log(err);
-  })
-//
-
+// fetch('https://deliciousnachos.github.io/details-overlay/details/circles.json')
+//   .then(function(circleStuff) {
+//     return circleStuff.json()
+//   })
+//   .then(function(circleStuffinJSON) {
+//     console.log(circleStuffinJSON);
+//   })
+//   .catch(function(err) {
+//     console.log(err);
+//   })
 
 
 
