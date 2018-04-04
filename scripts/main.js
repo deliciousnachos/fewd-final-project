@@ -39,19 +39,38 @@ $smallButton.click(function() {
 //   })
 
 
-// parse and show the circle array in the console
+
+// // filter to a one item array 
+// var singleCircle = allCircles.filter(function(element) {
+//   if (element.circleID === "01-001") {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// });
+
+var circleArray = [];
+
+// parse JSON, push into array
 var allCircles = $.getJSON('scripts/circles.json', function(data) {
-    console.log(data); 
+  circleArray.push(data);
+  return circleArray;
 }); 
 
-// filter to a one item array 
-var singleCircle = allCircles.filter(function(element) {
-  if (element.circleID === "01-001") {
-    return true;
-  } else {
-    return false;
-  }
-});
+console.log(circleArray);
+
+
+//   var singleCircle = allCircles.filter(function(element) {
+//     if (element.circleID === "01-001") {
+//     return true;
+//     } else {
+//     return false;
+//     }
+//   });
+//   console.log(singleCircle);
+// }); 
+
+
 
 
 
