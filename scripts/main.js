@@ -49,13 +49,6 @@ console.log(singleCircle);
 
 /**************************** Fill info into the detail overlay */
 
-// make vars for element IDs on overlay 
-var circleName = ('#circleName');
-var circleDescription = ('#circleDescription');
-var artDetail = ('#artDetail');
-var circleYear = ('#circleYear');
-var imageURL = ('#imageURL');
-
 
 // need to write a function where:
 // 1. the user clicks a photo on the index page.
@@ -63,16 +56,21 @@ var imageURL = ('#imageURL');
 // 3. using the ID, we filter down to the object we want in the JSON array
 // 4. once we have grabbed the object, we target the contents to fill the tags on the overlay page
 
+// make vars for element IDs on overlay 
+var circleName = ('#circleName');
+var circleDescription = ('#circleDescription');
+var artDetail = ('#artDetail');
+var circleYear = ('#circleYear');
+var imageURL = ('#imageURL');
 
 //make the parts go in to the template
 var makePage = circleArray.forEach(function(element) {
-  var makeTitle = circles.circleName.appendTo('#circleName').text(element.circleName);
-  var makeDescription = circles.circleDescription.appendTo('#circleDescription').text(element.circleDescription);
-  var artDetail = circles.artDetail.appendTo('#artDetail').text(element.artDetail);
-  var circleYear = circles.circleYear.appendTo('#circleYear').text(element.circleYear);
-  var makeImage = circles.imageURL.appendTo('.detail-image').attr('src', element.imageURL);
+  var makeTitle = ('#circleName').text(element.circles.circleName);
+  var makeDescription = ('#circleDescription').text(element.circles.circleDescription);
+  var artDetail = ('#artDetail').text(element.circles.artDetail);
+  var circleYear = ('#circleYear').text(element.circles.circleYear);
+  var makeImage = $('<img>').attr('src', element.circles.imageURL).appendTo('.detail-image');
 });
-
 
 
 
