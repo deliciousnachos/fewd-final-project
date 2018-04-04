@@ -1,3 +1,5 @@
+/**************************** big styles */
+
 body {
   background-color: rgb(57, 61, 68,.1);
   color: rgb(57, 61, 68,1);
@@ -39,7 +41,7 @@ nav a {
   text-decoration: none;
 }
 
-/* Global */
+/**************************** Global */
 
 a:hover {
   color: #36ab3e;
@@ -61,7 +63,7 @@ h2 {
   padding-bottom: 20px;
 }
 
-/* footer styles */
+/**************************** footer styles */
 
 footer p {
   margin-top: 40px;
@@ -72,18 +74,6 @@ footer p {
 
 
 /**************************** Index styles */
-
-/*.hero {
-  height: 360px;
-  background-image: url(../assets/IMG_0083.png);
-  background-size: cover;
-  background-position: center;
-}*/
-
-/*.sort-bar {
-  border-top: 1px solid #2982E8;
-  padding: 20px 0 0 0;
-}*/
 
 .size-toggle {
   display: flex;
@@ -120,15 +110,15 @@ a.button:active {
   text-align: center;
   margin: 10px;
   max-width: 200px;
+  box-shadow: 0 16px 24px 2px rgba(7, 35, 79, 0.06),
+              0 6px 30px 5px rgba(7, 35, 79, 0.05),
+              0 8px 10px -10px rgba(7, 35, 79, 0.2);
+}
+.cat-item:hover {
   box-shadow: 0 16px 24px 2px rgba(7, 35, 79, 0.09),
               0 6px 30px 5px rgba(7, 35, 79, 0.07),
-              0 8px 10px -10px rgba(7, 35, 79, 0.3);
-}
-
-.cat-item:hover {
-  box-shadow: 0 16px 24px 2px rgba(7, 35, 79, 0.3),
-              0 6px 30px 5px rgba(7, 35, 79, 0.3),
-              0 8px 10px -10px rgba(7, 35, 79, 0.5);
+              0 8px 10px -10px rgba(7, 35, 79, 0.3),
+              2px 2px 12px 2px rgba(7, 35, 79, 0.1);
 }
 
 .cat-item a {
@@ -141,8 +131,8 @@ a.button:active {
   z-index: 1;
   grid-area: 1 / 1 / 3 / 2; 
 }
-/*.item-img:hover {
 
+/*.item-img:hover {
 }*/
 
 .item-summary {
@@ -169,9 +159,9 @@ a.button:active {
   padding: 10px;
 }
 
-/* About styles */
+/**************************** About styles */
 
-main.about {
+main.about, main.getone {
   box-sizing: border-box;
   display: grid;
   grid-template: 1fr / 2fr 3fr;
@@ -183,12 +173,12 @@ aside.pics {
   grid-column-start: 1;
 }
 
-img.about {
+img.about, img.getone {
   max-width: 100%;
   margin-bottom: 20px;
 }
 
-aside.text {
+aside.text, section.detail {
   grid-column-start: 2;
   margin-left: 50px;
 }
@@ -197,10 +187,6 @@ p {
   line-height: 1.3;
   padding-bottom: 20px;
 }
-
-
-
-
 
 
 
@@ -285,6 +271,8 @@ section.purchase p small {
   padding: 3px 20px 0 20px;
   text-decoration: none;
 }
+
+/**************************** Media Queries */
 
 /* VERY TINY */
 @media only screen and (min-width: 1px) and (max-width: 399px) {
